@@ -1,0 +1,20 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "jakebecker.elixir-ls",
+        "eamodio.gitlens",
+        "streetsidesoftware.code-spell-checker"
+      ],
+      "settings": {
+        "elixirLS.projectDir": "aoc"
+      }
+    }
+  },
+  "forwardPorts": [
+    4000
+  ]
+}
